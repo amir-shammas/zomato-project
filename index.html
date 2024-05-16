@@ -8,19 +8,33 @@
   </head>
   <body>
     <div class="container">
-      <div class="section_nav d-flex">
-        <div class="left_nav d-flex align-items-center">
-          <div class="section-log d-flex align-items-center">
+      <div class="section_nav">
+        <div class="left_nav">
+          <div class="section_logo">
             <h3><a href="#">zomato</a></h3>
           </div>
         </div>
-        <div class="center_nav">
-          <ul class="d-flex align-items-center">
+        <div class="right_nav">
+          <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#">TRAVEL</a></li>
             <li><a href="#">BLOGS</a></li>
             <li><a href="#">SUPPORT</a></li>
           </ul>
+        </div>
+        <div class="mobile_nav">
+          <input type="checkbox" id="toggle_nav" hidden />
+          <label for="toggle_nav" class="hamburger">
+            <span class="line line_top"></span>
+            <span class="line line_mid"></span>
+            <span class="line line_bottom"></span>
+          </label>
+          <nav class="mobile_nav_list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TRAVEL</a></li>
+            <li><a href="#">BLOGS</a></li>
+            <li><a href="#">SUPPORT</a></li>
+          </nav>
         </div>
       </div>
     </div>
